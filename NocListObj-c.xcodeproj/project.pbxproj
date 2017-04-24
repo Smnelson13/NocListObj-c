@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		90A462E91EAE7DBB00219F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A462E81EAE7DBB00219F3C /* main.m */; };
 		90A462EC1EAE7DBB00219F3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A462EB1EAE7DBB00219F3C /* AppDelegate.m */; };
-		90A462EF1EAE7DBB00219F3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A462EE1EAE7DBB00219F3C /* ViewController.m */; };
 		90A462F21EAE7DBB00219F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A462F01EAE7DBB00219F3C /* Main.storyboard */; };
 		90A462F41EAE7DBB00219F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A462F31EAE7DBB00219F3C /* Assets.xcassets */; };
 		90A462F71EAE7DBB00219F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A462F51EAE7DBB00219F3C /* LaunchScreen.storyboard */; };
 		90A463021EAE7DBB00219F3C /* NocListObj_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A463011EAE7DBB00219F3C /* NocListObj_cTests.m */; };
 		90A4630D1EAE7DBB00219F3C /* NocListObj_cUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4630C1EAE7DBB00219F3C /* NocListObj_cUITests.m */; };
+		90A4631B1EAE7DCE00219F3C /* NOC.json in Resources */ = {isa = PBXBuildFile; fileRef = 90A4631A1EAE7DCE00219F3C /* NOC.json */; };
+		90A4631E1EAE7F0900219F3C /* NOCListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4631D1EAE7F0900219F3C /* NOCListTableViewController.m */; };
+		90A463211EAE839700219F3C /* Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A463201EAE839700219F3C /* Agent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		90A462E81EAE7DBB00219F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90A462EA1EAE7DBB00219F3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90A462EB1EAE7DBB00219F3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90A462ED1EAE7DBB00219F3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		90A462EE1EAE7DBB00219F3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90A462F11EAE7DBB00219F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90A462F31EAE7DBB00219F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90A462F61EAE7DBB00219F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,11 @@
 		90A463081EAE7DBB00219F3C /* NocListObj-cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NocListObj-cUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A4630C1EAE7DBB00219F3C /* NocListObj_cUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NocListObj_cUITests.m; sourceTree = "<group>"; };
 		90A4630E1EAE7DBB00219F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A4631A1EAE7DCE00219F3C /* NOC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NOC.json; path = "../../../2017--SPRING--iOS/NOCList/NOCList/NOC.json"; sourceTree = "<group>"; };
+		90A4631C1EAE7F0900219F3C /* NOCListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOCListTableViewController.h; sourceTree = "<group>"; };
+		90A4631D1EAE7F0900219F3C /* NOCListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOCListTableViewController.m; sourceTree = "<group>"; };
+		90A4631F1EAE839700219F3C /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agent.h; sourceTree = "<group>"; };
+		90A463201EAE839700219F3C /* Agent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Agent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +108,14 @@
 			children = (
 				90A462EA1EAE7DBB00219F3C /* AppDelegate.h */,
 				90A462EB1EAE7DBB00219F3C /* AppDelegate.m */,
-				90A462ED1EAE7DBB00219F3C /* ViewController.h */,
-				90A462EE1EAE7DBB00219F3C /* ViewController.m */,
 				90A462F01EAE7DBB00219F3C /* Main.storyboard */,
+				90A4631C1EAE7F0900219F3C /* NOCListTableViewController.h */,
+				90A4631D1EAE7F0900219F3C /* NOCListTableViewController.m */,
+				90A4631F1EAE839700219F3C /* Agent.h */,
+				90A463201EAE839700219F3C /* Agent.m */,
 				90A462F31EAE7DBB00219F3C /* Assets.xcassets */,
 				90A462F51EAE7DBB00219F3C /* LaunchScreen.storyboard */,
+				90A4631A1EAE7DCE00219F3C /* NOC.json */,
 				90A462F81EAE7DBB00219F3C /* Info.plist */,
 				90A462E71EAE7DBB00219F3C /* Supporting Files */,
 			);
@@ -246,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A4631B1EAE7DCE00219F3C /* NOC.json in Resources */,
 				90A462F71EAE7DBB00219F3C /* LaunchScreen.storyboard in Resources */,
 				90A462F41EAE7DBB00219F3C /* Assets.xcassets in Resources */,
 				90A462F21EAE7DBB00219F3C /* Main.storyboard in Resources */,
@@ -273,8 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90A462EF1EAE7DBB00219F3C /* ViewController.m in Sources */,
 				90A462EC1EAE7DBB00219F3C /* AppDelegate.m in Sources */,
+				90A463211EAE839700219F3C /* Agent.m in Sources */,
+				90A4631E1EAE7F0900219F3C /* NOCListTableViewController.m in Sources */,
 				90A462E91EAE7DBB00219F3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
